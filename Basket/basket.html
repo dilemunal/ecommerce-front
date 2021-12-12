@@ -154,7 +154,6 @@
             background-color: white;
         }
 
-        /*yeni*/
         button {
             width: 30px;
             height: 30px;
@@ -175,7 +174,15 @@
             margin-left: 30px;
         }
 
-        /*yeni*/
+        .footer {
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #212121;
+            color: white;
+            text-align: center;
+            margin-top: 200px;
+        }
     </style>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -209,31 +216,56 @@
     <div class="main">
 
         <div class="container-fluid " style="margin-top:20px">
-
             <div id="accordion" class="row">
-
             </div>
         </div>
+        <div="container">
 
-       
-
-
-
+            <div class="row">
+                <div class="row" style="margin-left: 50px;">
+                    <button onclick="increment()"
+                        style="margin-left: 20px; margin-right: 20px; margin-top:20px;">+</button>
+                    <h2 style="margin-top:20px;">0</h2>
+                    <button onclick="decrement()"
+                        style="margin-left: 20px; margin-right: 20px; margin-top:20px;">-</button>
+                </div>
+                <div class="row" style="margin-left: 400px;">
+                    <button onclick="increment()"
+                        style="margin-left: 20px; margin-right: 20px;margin-top:20px;">+</button>
+                    <h2 style="margin-top:20px;">0</h2>
+                    <button onclick="decrement()"
+                        style="margin-left: 20px; margin-right: 20px; margin-top:20px;">-</button>
+                </div>
+                <div class="row" style="margin-left: 250px;">
+                    <button onclick="increment()"
+                        style="margin-left: 20px; margin-right: 20px; margin-top:20px;">+</button>
+                    <h2 id="counting" style="margin-top:20px;"></h2>
+                    <button onclick="decrement()"
+                        style="margin-left: 20px; margin-right: 20px; margin-top:20px;">-</button>
+                </div>
+            </div>
+    </div>
+    <h1 style="margin-top: 150px; font-size: 18px; margin-left: 30px;"> Total: Total Price</h1>
     </div>
 
+    <div class="footer">
+        <p>Footer</p>
+        <p>Footer</p>
+        <p>Footer</p>
+    </div>
 
     <script>
 
         const apiResult = [{
             title: "Product 1",
-            price: "100",
+            price: "Price 1",
 
         }, {
             title: "Product 2",
-            price: "70",
+            price: "Price 2",
         }, {
             title: "Product 3",
-            price: "120",
+            price: "Price 3",
         }];
 
         //initialising a variable name data
@@ -261,14 +293,14 @@
 
             const content = `
 
-    
+        
         <div class="col">
         <div class="card">
 
             <div class="card-header" id="heading-${idx}">
             </div>
            
-            <img class="card-img-top" src="..." alt="Card image cap" style="margin-top:30px; margin-left:10px">
+            <img class="card-img-top" src="https://static.zara.net/photos///2021/I/0/1/p/5388/451/711/2/w/1920/5388451711_6_2_1.jpg?ts=1632138566952" alt="Card image cap" style="margin-top:30px; width:330px; height:400px; margin-left:30px">
             
             <div class="card-body" style="margin-top:50px">
                 <h5>${result.title}</h5>
@@ -277,10 +309,9 @@
             <div class="card-body" style="margin-top:30px"> 
                Price : <p>${result.price}</p>
             </div>
-            <button  style="margin-left: 30px;">+</button>
-            <h2 id="counting"></h2>
-            <button style="margin-left: 30px;">-</button>
+
      
+
         </div>
         
     </div>
