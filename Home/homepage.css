@@ -1,0 +1,161 @@
+.homepageWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 1600px;
+    border:1px solid orange;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.homepageNavbarWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    border: 1px solid purple;
+}
+
+.homepageNavbarLogoImg {
+    height: 100px;
+    width: 200px;
+}
+.homepageNavbarRedirecterWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 400px;
+}
+.homepageNavbarHomeRedirecter,
+.homepageNavbarStoreRedirecter{
+    height: 60%;
+    width: 50%;
+    border:1px solid salmon;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#666565;
+}
+
+.homepageNavbarHomeRedirecter:hover,
+.homepageNavbarStoreRedirecter:hover{
+   background-color: lightblue;
+   color: ffffff;
+}
+.homepageNavbarSearchWrapper {
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.homepageNavbarSearchTextbox {
+    height: 100%;
+    width: 300px!important;
+    border:1px solid blue;
+    padding:0px 0px 0px 0px;
+    display: inline-flex;
+}
+.homepageNavbarSearchButton{
+    height: 100%;
+    width: 60px;
+    display: inline-flex;
+    border: none;
+    background-color: ffffff;
+    position: relative;
+    border:1px solid red;
+    right:60px;
+    padding: 0px 0px 0px 0px;
+}
+
+.homepageNavbarLoginFormWrapper {
+display: flex;
+flex-direction: row;
+width: 500px;
+height: 100%;
+align-items: center;
+border :1px solid pink;
+}
+.homepageNavbarLoginFormButtonWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    
+}
+.homepageNavbarLoginFormForm {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.homepageNavbarLoginFormUsernameTextbox,
+.homepageNavbarLoginFormPasswordTextbox {
+    height: 40%;
+    width: 160px;
+    display: inline-flex;
+}
+.homepageNavbarLoginFormLoginButton,
+.homepageNavbarLoginFormRegisterButton{
+    height: 50%;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    color:ffffff;
+}
+#homepageSliderWrapper .item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#homepageSliderWrapper  {
+    height: 500px;
+    width: 1200px;
+}
+
+
+
+.owl-dots {
+    position: relative;
+    top:-50px;
+
+}
+.homepageFeaturedProductsWrapper{
+display: flex;
+flex-direction: row;
+width: 1200px; 
+height: 800px;
+flex-wrap: wrap;
+padding-bottom: 20px;
+border : 1px solid red;
+align-items: center;
+justify-content: center;
+}
+
+.homepageSingleFeaturedProduct{
+    width: 350px;
+    height: 350px;
+    flex: 350px 0;
+    margin: 20px;
+    border : 1px solid blue;
+}
+.homepageSingleFeaturedProductImage {
+    height: 300px;
+    width: 350px;
+}
+.homepageSingleFeaturedProductLink {
+    height: 50px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+}
