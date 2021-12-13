@@ -1,0 +1,266 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+  
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.categoryItems{
+    display: flex;
+    background-color: rgb(226, 225, 225);
+    flex-direction: column;
+    border: solid 2px rgb(131, 124, 124);
+    
+}
+.categories{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+.categoryHeader{
+    color:rgb(26, 24, 24);
+    height: 20px;
+    text-align: center;
+}
+.category{
+    height: 50px;
+    background-color: rgb(202, 214, 206);
+    border: solid 1px black;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px;
+    border-radius: 12px;
+}
+.category:hover {
+    background-color: rgb(171, 207, 219);
+  }
+
+.filters{
+    height: 200px;
+    /* background-color: darkgreen; */
+    border: solid 1px black;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.filterName{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.fromTo{
+    margin: 0px;
+}
+.from{
+    width: 60px;
+}
+.to{
+    width: 60px;
+}
+.priceButton{
+  background-color: #4ca0af; /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  width: 80px;
+}
+.priceButton:hover{
+    background-color: rgb(38, 235, 215);
+}
+
+.products{
+    width: 965px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(226, 225, 225);
+    flex-wrap: wrap;
+    border: solid 2px rgb(131, 124, 124);
+    
+}
+.product{
+    margin: 40px;
+    width: 220px;
+    height: 200px;
+    background-color: rgb(175, 175, 175);
+    display: flex;
+    flex-direction: Column;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.imgOfProduct{
+    width: 220px;
+    height: 160px;
+    border-radius: 12px;
+}
+.imgOfProduct:hover{
+    margin: -5px;
+    width: 230px;
+    height: 170px;
+}
+.nameOfProduct{
+    margin: 8px;
+    text-align: center;
+}
+input{
+    border-radius: 12px;
+}
+
+footer{
+    height: 200px;
+    width: 1173px;
+    background-color: rgb(148, 151, 140);
+}
+
+
+
+
+/***************** NAVBAR ***************************/
+
+
+
+        .header {
+            overflow: hidden;
+            background-color: #f1f1f1;
+           
+        }
+
+        /* Style the header links */
+        .header a {
+            float: left;
+            color: black;
+            text-align: center;
+            padding: 12px;
+            text-decoration: none;
+            font-size: 18px;
+            line-height: 25px;
+            border-radius: 4px;
+      
+        }
+
+        /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+        .header a.logo {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        /* Change the background color on mouse-over */
+        .header a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Style the active/current link*/
+        .header a.active {
+            background-color: dodgerblue;
+            color: white;
+        }
+
+        /* Float the link section to the right */
+        .header-right {
+            float: right;
+        }
+
+        /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+        @media screen and (max-width: 500px) {
+            .header a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+
+            .header-right {
+                float: none;
+            }
+        }
+
+        /* Add padding to containers */
+        .container {
+            background-color: white;
+
+        }
+
+
+        .topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+  width: 975px;
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}

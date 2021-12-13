@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="adminCampaign.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+</head>
+<body>
+    <div class="header">
+        <a href="#default" class="logo">CompanyLogo</a>
+
+        <div class="topnav" >
+
+            <a class="active" href="#home">Home</a>
+            <a href="#store">Store</a>
+            <a href="#profile"><i class="material-icons">person</i></a>
+            <a href="#cart"><i class="material-icons">shopping_cart</i></a>
+            <a href="#favs"><i class="material-icons">favorite</i></a>
+            <a href="#support"><i class="material-icons">support_agent</i></a>
+            <div class="search-container">
+              <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="material-icons">search</i></button>
+              </form>
+            </div>
+
+          </div>
+
+      
+    </div>
+   
+    <div class="container">
+        <div class="categoryItems">
+            <div class="categories">
+                <h2 class="categoryHeader">Profile</h2>
+                <button class="category active">Add Product & Category</button>
+                <button class="category">Accounts</button>
+                <button class="category">Notification</button>
+                <button class="category">Campaign</button>
+            </div>
+        </div>
+        <div class="campaign">
+            <div class="searchProduct">
+                <input style="width: 150px; height: 30px; border: none;" type="text" placeholder="Search Product">
+                <img style="width: 40px; height: 40px;" src="search.png" alt="">
+            </div>
+            <div class="applyCampaign">
+                <div style="margin-left: 0px;" class="product">
+                    <img src="product.jpg" alt="" class="imgOfProduct">
+                    <h3 class="nameOfProduct">Product Name</h3>
+                </div>
+                <input style=" margin-top: 110px; width: 150px; height: 30px; border: none;" type="text" placeholder="Discount Amount">
+            </div>
+            
+            <button style="width: 180px;" type="submit" class="priceButton">Apply the campaign</button>
+
+            
+        </div>
+
+    </div>
+    <footer></footer>
+
+</body>
+</html>
