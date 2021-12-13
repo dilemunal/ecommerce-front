@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <div class="header">
+        <a href="#default" class="logo">CompanyLogo</a>
+
+        <div class="topnav" >
+
+            <a href="#home">Home</a>
+            <a href="#store">Store</a>
+            <a  class="active" href="#profile"><i class="material-icons">person</i></a>
+            <a href="#cart"><i class="material-icons">shopping_cart</i></a>
+            <a href="#favs"><i class="material-icons">favorite</i></a>
+            <a href="#support"><i class="material-icons">support_agent</i></a>
+            <div class="search-container">
+              <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="material-icons">search</i></button>
+              </form>
+            </div>
+
+          </div>
+
+      
+    </div>
+   
+    <div class="container">
+        <div class="categoryItems">
+            <div class="categories">
+                <h2 class="categoryHeader">Profile</h2>
+                <button class="category">Profile</button>
+                <button class="category">Orders</button>
+                <button class="category active">Wallet</button>
+            </div>
+        </div>
+        <div class="wallet">
+            <div class="walletTitle">
+                <h3>My Wallet</h3>
+                <img src="wallet.png" alt="" class="walletPng">
+            </div>
+            <h2>Total : $0.00</h2>
+            <h2>Load With Card</h2>
+            <input class="amount" type="text" placeholder="Enter an amount">
+            <h3>Saved Cards :</h3>
+            <div class="cards">
+                <div class="card">
+                    <h2>Credit Card</h2>
+                    <h3 class="cardNumber">2515 2521 2515 5151</h3>
+                    <div class="nameAndDate">
+                        <h3 class="cardName">Micheal Jackson</h3>
+                        <h3 class="cardDate">02 / 25</h3>
+                    </div>
+                </div>
+                <div class="card">
+                    <h2>Credit Card</h2>
+                    <h3 class="cardNumber">2515 2521 2515 5151</h3>
+                    <div class="nameAndDate">
+                        <h3 class="cardName">Micheal Jackson</h3>
+                        <h3 class="cardDate">02 / 25</h3>
+                    </div>
+                </div>
+            </div>
+            <h3>New Cards</h3>
+            <input style="width: 250px; height: 30px;" type="text" placeholder="Card Number">
+            <br>
+            <input style="width: 250px; height: 30px;" type="text" placeholder="Card owner's name and last name">
+            <br>
+            <div class="nameAndDate">
+                <input style="width: 150px; height: 30px;" type="text" placeholder="Expiration date">
+                <input style="width: 150px; height: 30px;" type="text" placeholder="CVC Code">
+            </div>
+            <br>
+            <div class="CardButtons">
+                <button style="width: 150px;" class="priceButton">Save Card</button>
+                <button style="width: 150px;" class="priceButton">Load Balance</button>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <footer></footer>
+
+</body>
+</html>
