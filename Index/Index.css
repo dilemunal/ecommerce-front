@@ -1,3 +1,5 @@
+
+
 .homepageWrapper {
     display: flex;
     flex-direction: column;
@@ -77,9 +79,15 @@
     border-radius: 4px;
     background-color: ffffff;
     position: relative;
+    cursor: pointer;
     border:1px solid black;
     right:60px;
     padding: 0px 0px 0px 0px;
+}
+
+.homepageNavbarSearchButtonImage{
+    height: 100%;
+    width: 60px;
 }
 
 .homepageNavbarLoginFormWrapper {
@@ -139,14 +147,13 @@ border :1px solid white;
 #homepageSliderWrapper .item img {
     display: block;
     width: 100%;
+    border-radius: 10px;
     height: 100%;
 }
 #homepageSliderWrapper  {
     height: 500px;
     width: 1200px;
 }
-
-
 
 .owl-dots {
     position: relative;
@@ -159,8 +166,12 @@ flex-direction: row;
 width: 1200px; 
 height: 800px;
 flex-wrap: wrap;
+color: ;
 padding-bottom: 20px;
-border : 1px solid red;
+background: #4C8FFB;
+border-radius: 10px;
+margin: 10px;
+border : 1px solid white;
 align-items: center;
 justify-content: center;
 }
@@ -170,15 +181,21 @@ justify-content: center;
     height: 350px;
     flex: 350px 0;
     margin: 20px;
-    border : 1px solid blue;
+    border : 1px solid 4C8FFB;
+    color: white;
+    border-radius: 4px;
 }
 .homepageSingleFeaturedProductImage {
     height: 300px;
     width: 350px;
+    border-radius: 4px;
 }
 .homepageSingleFeaturedProductLink {
     height: 50px;
     width: 350px;
+    background-color: white;
+   
+    border-radius: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
