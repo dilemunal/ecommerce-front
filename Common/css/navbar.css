@@ -1,0 +1,97 @@
+.NavbarWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    border: 1px solid purple;
+}
+
+.NavbarLogoImg {
+    height: 100px;
+    width: 200px;
+}
+.NavbarRedirecterWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 400px;
+}
+.NavbarHomeRedirecter,
+.NavbarStoreRedirecter{
+    height: 60%;
+    width: 50%;
+    border:1px solid salmon;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#666565;
+}
+
+.NavbarHomeRedirecter:hover,
+.NavbarStoreRedirecter:hover{
+   background-color: lightblue;
+   color: ffffff;
+}
+.NavbarSearchWrapper {
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.NavbarSearchTextbox {
+    height: 100%;
+    width: 300px!important;
+    border:1px solid blue;
+    padding:0px 0px 0px 0px;
+    display: inline-flex;
+}
+.NavbarSearchButton{
+    height: 100%;
+    width: 60px;
+    display: inline-flex;
+    border: none;
+    background-color: ffffff;
+    position: relative;
+    border:1px solid red;
+    right:60px;
+    padding: 0px 0px 0px 0px;
+}
+.NavbarRedirectLinkWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 400px;
+
+}
+.NavbarRedirectLinkSingleRedirect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 50%;
+    border: 1px solid blue;
+
+}
+
+.maxWidthWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 1600px;
+    border: 1px solid orange;
+    margin: 0px auto;
+    align-items: center;
+
+}
+
+.NavbarRedirectLinkSingleRedirectIcon {
+    width: 100%;
+    height: 100%;
+    border:1px solid salmon;
+}
