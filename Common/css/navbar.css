@@ -24,22 +24,30 @@
 .NavbarStoreRedirecter{
     height: 60%;
     width: 50%;
-    border:1px solid salmon;
+    color: white;
+    background: #4C8FFB;
+    font-weight: bold;
+    margin:5px;
+    border-radius: 4px;
+    font-size: 14pt;
     text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    color:#666565;
+    
 }
 
 .NavbarHomeRedirecter:hover,
 .NavbarStoreRedirecter:hover{
-   background-color: lightblue;
-   color: ffffff;
+    border: 1px #C6C6C6 solid;
+    box-shadow: 1px 1px 1px #EAEAEA;
+    color: #4C8FFB;
+    background: #F7F7F7
 }
 .NavbarSearchWrapper {
     height: 50%;
     display: flex;
+    border-radius: 2px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -47,7 +55,9 @@
 .NavbarSearchTextbox {
     height: 100%;
     width: 300px!important;
-    border:1px solid blue;
+    border-radius: 4px;
+    font-size: 14pt;
+    border:1px solid black;
     padding:0px 0px 0px 0px;
     display: inline-flex;
 }
@@ -56,15 +66,18 @@
     width: 60px;
     display: inline-flex;
     border: none;
+    border-radius: 4px;
     background-color: ffffff;
     position: relative;
-    border:1px solid red;
+    border:1px solid black;
     right:60px;
     padding: 0px 0px 0px 0px;
 }
 .NavbarRedirectLinkWrapper {
     display: flex;
     align-items: center;
+    margin:5px;
+    border-radius: 4px;
     justify-content: center;
     height: 100%;
     width: 400px;
@@ -74,6 +87,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin:5px;
+    border-radius: 4px;
     width: 100px;
     height: 50%;
     border: 1px solid blue;
