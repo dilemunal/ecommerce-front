@@ -3,42 +3,65 @@
 <head>
     <link rel="stylesheet" type="text/css" href="/Admin/css/adminCampaign.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    
+    <link rel="stylesheet" href="/Common/css/navbar.css" />
+    <link rel="stylesheet" href="/Common/css/adminSidebar.css" />
 </head>
 <body>
-    <div class="header">
-        <a href="#default" class="logo">CompanyLogo</a>
-
-        <div class="topnav" >
-
-            <a class="active" href="#home">Home</a>
-            <a href="#store">Store</a>
-            <a href="#profile"><i class="material-icons">person</i></a>
-            <a href="#cart"><i class="material-icons">shopping_cart</i></a>
-            <a href="#favs"><i class="material-icons">favorite</i></a>
-            <a href="#support"><i class="material-icons">support_agent</i></a>
-            <div class="search-container">
-              <form action="/action_page.php">
-                <input type="text" placeholder="Search.." name="search">
-                <button type="submit"><i class="material-icons">search</i></button>
-              </form>
-            </div>
-
+    <div class="maxWidthWrapper">
+        <div class="NavbarWrapper">
+          <img class="NavbarLogoImg" />
+          <div class="NavbarRedirecterWrapper">
+            <a class="NavbarHomeRedirecter" href="homepage.html"> Home </a>
+            <a class="NavbarStoreRedirecter" href="store.html"> Store </a>
           </div>
-
+          <div class="NavbarSearchWrapper">
+            <input class="NavbarSearchTextbox" type="text" />
+            <input class="NavbarSearchButton" type="button" />
+          </div>
+          <div class="NavbarRedirectLinkWrapper">
+          
+            <a class="NavbarRedirectLinkSingleRedirect">
+              <img class="NavbarRedirectLinkSingleRedirectIcon" src="">
+            </a>
+            <a class="NavbarRedirectLinkSingleRedirect">
+              <img class="NavbarRedirectLinkSingleRedirectIcon" src="">
+            </a>
+            <a class="NavbarRedirectLinkSingleRedirect">
+              <img  class="NavbarRedirectLinkSingleRedirectIcon" src="">
+            </a>
+            <a class="NavbarRedirectLinkSingleRedirect">
+              <img class="NavbarRedirectLinkSingleRedirectIcon" src="">
+            </a>
+            <a class="NavbarRedirectLinkSingleRedirect">
+              <img class="NavbarRedirectLinkSingleRedirectIcon" src="">
+            </a>
+          </div>
+     
       
-    </div>
-   
-    <div class="container">
-        <div class="categoryItems">
-            <div class="categories">
-                <h2 class="categoryHeader">Profile</h2>
-                <button class="category active">Add Product & Category</button>
-                <button class="category">Accounts</button>
-                <button class="category">Notification</button>
-                <button class="category">Campaign</button>
-            </div>
+         
         </div>
+      </div>
+   
+      <div class="adminCampaignWrapper">
+        <div class="adminSidebarWrapper">
+            <ul class="adminSidebarList">
+              <li class="adminSidebarSingleOption">
+                <a href="#" class="adminSidebarSingleOptionRedirecter">
+                  Redirect</a
+                >
+              </li>
+              <li class="adminSidebarSingleOption">
+                <a href="#" class="adminSidebarSingleOptionRedirecter">
+                  Redirect</a
+                >
+              </li> 
+              <li class="adminSidebarSingleOption">
+                <a href="#" class="adminSidebarSingleOptionRedirecter">
+                  Redirect</a
+                >
+              </li> 
+            </ul>
+          </div>
         <div class="campaign">
             <div class="searchProduct">
                 <input style="width: 150px; height: 30px; border: none;" type="text" placeholder="Search Product">

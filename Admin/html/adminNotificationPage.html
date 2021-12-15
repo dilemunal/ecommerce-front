@@ -2,6 +2,8 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/Common/css/navbar.css" />
+  <link rel="stylesheet" href="/Common/css/adminSidebar.css" />
   <style>
     body {
       font-family: Arial, Helvetica, sans-serif;
@@ -165,6 +167,14 @@
       border-color: #212121 2px;
       
     }
+    .adminNotificationWrapper {
+      display: flex;
+    flex-direction: row;
+    width: 1600px;
+    border:1px solid orange;
+    margin: 0 auto;
+    align-items: center;
+    }
 
   </style>
 
@@ -176,42 +186,62 @@
 </head>
 
 <body>
-
-  <div class="header">
-    <a href="#default" class="logo">CompanyLogo</a>
-
-    <div class="topnav">
-
-      <a class="active" href="#home">Home</a>
-      <a href="#store">Store</a>
-      <a href="#profile"><i class="material-icons">person</i></a>
-      <a href="#cart"><i class="material-icons">shopping_cart</i></a>
-      <a href="#favs"><i class="material-icons">favorite</i></a>
-      <a href="#support"><i class="material-icons">support_agent</i></a>
-      <div class="search-container">
-        <form action="/action_page.php">
-          <input type="text" placeholder="Search.." name="search">
-          <button type="submit"><i class="material-icons">search</i></button>
-        </form>
+  <div class="maxWidthWrapper">
+    <div class="NavbarWrapper">
+      <img class="NavbarLogoImg" />
+      <div class="NavbarRedirecterWrapper">
+        <a class="NavbarHomeRedirecter" href="homepage.html"> Home </a>
+        <a class="NavbarStoreRedirecter" href="store.html"> Store </a>
       </div>
-
+      <div class="NavbarSearchWrapper">
+        <input class="NavbarSearchTextbox" type="text" />
+        <input class="NavbarSearchButton" type="button" />
+      </div>
+      <div class="NavbarRedirectLinkWrapper">
+      
+        <a class="NavbarRedirectLinkSingleRedirect">
+          <img class="NavbarRedirectLinkSingleRedirectIcon" src="">
+        </a>
+        <a class="NavbarRedirectLinkSingleRedirect">
+          <img class="NavbarRedirectLinkSingleRedirectIcon" src="">
+        </a>
+        <a class="NavbarRedirectLinkSingleRedirect">
+          <img  class="NavbarRedirectLinkSingleRedirectIcon" src="">
+        </a>
+        <a class="NavbarRedirectLinkSingleRedirect">
+          <img class="NavbarRedirectLinkSingleRedirectIcon" src="">
+        </a>
+        <a class="NavbarRedirectLinkSingleRedirect">
+          <img class="NavbarRedirectLinkSingleRedirectIcon" src="">
+        </a>
+       
+ 
+  
+      </div>
     </div>
-
-
   </div>
 
-  <div class="row">
-    <div class="col-sm-3">
-      <div class="list-group" style="margin-top: 10%;">
-
-        <a href="#" class="list-group-item list-group-item-action">Add Product & Category</a>
-        <a href="#" class="list-group-item list-group-item-action ">Accounts</a>
-        <a href="#" class="list-group-item list-group-item-action active">Notification</a>
-        <a href="#" class="list-group-item list-group-item-action">Campaign</a>
-
-      </div>
+  <div class="adminNotificationWrapper">
+    <div class="adminSidebarWrapper">
+      <ul class="adminSidebarList">
+        <li class="adminSidebarSingleOption">
+          <a href="#" class="adminSidebarSingleOptionRedirecter">
+            Redirect</a
+          >
+        </li>
+        <li class="adminSidebarSingleOption">
+          <a href="#" class="adminSidebarSingleOptionRedirecter">
+            Redirect</a
+          >
+        </li> 
+        <li class="adminSidebarSingleOption">
+          <a href="#" class="adminSidebarSingleOptionRedirecter">
+            Redirect</a
+          >
+        </li>
+        
+      </ul>
     </div>
-
     <div class="col-sm-7">
       <div class="container">
 
@@ -233,11 +263,6 @@
       </div>
     </div>
 
-    <div class="footer">
-      <p>Footer</p>
-      <p>Footer</p>
-      <p>Footer</p>
-    </div>
 
 
     <script>

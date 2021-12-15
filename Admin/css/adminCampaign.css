@@ -9,6 +9,9 @@ body{
 .container{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1600px;
 }
 .categoryItems{
     display: flex;
@@ -189,7 +192,7 @@ footer{
 
 /* --------------------Admin Campaign Page -------------------------*/
 .campaign{
-    width: 915px;
+    width: 1200px;
     display: flex;
     flex-direction: column;
     background-color: rgb(226, 225, 225);
@@ -346,4 +349,13 @@ footer{
   .topnav input[type=text] {
     border: 1px solid #ccc;  
   }
+}
+
+.adminCampaignWrapper {
+    display: flex;
+    flex-direction: row;
+    width: 1600px;
+    border:1px solid orange;
+    margin: 0 auto;
+    align-items: center;
 }

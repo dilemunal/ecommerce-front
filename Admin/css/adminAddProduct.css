@@ -210,3 +210,12 @@ width: 100%;
 
 label { display: table-cell; }
 input { display: table-cell; }
+.adminAddProductWrapper {
+    display: flex;
+    flex-direction: row;
+    width: 1600px;
+    border:1px solid orange;
+    margin: 0 auto;
+    align-items: center;
+
+}

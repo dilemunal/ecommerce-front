@@ -1,0 +1,39 @@
+.adminSidebarWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: auto;
+    border: 1px solid red;
+
+}
+.adminSidebarList {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0px 0px 0px 0px;
+}
+.adminSidebarSingleOption {
+    width: 100%;
+    height: 60px;
+    border:1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.adminSidebarSingleOptionRedirecter {
+    width: 100%;
+    height: 100%;
+    border:1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.adminSidebarOptionsText {
+    margin: 0px;
+}
