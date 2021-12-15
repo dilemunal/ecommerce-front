@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 1600px;
-    border:1px solid orange;
+    border:1px solid white;
     margin: 0 auto;
     align-items: center;
 }
@@ -14,7 +14,7 @@
     justify-content: center;
     height: 100px;
     width: 100%;
-    border: 1px solid purple;
+    border: 1px solid white;
 }
 
 .homepageNavbarLogoImg {
@@ -33,22 +33,29 @@
 .homepageNavbarStoreRedirecter{
     height: 60%;
     width: 50%;
-    border:1px solid salmon;
+    color: white;
+    background: #4C8FFB;
+    font-weight: bold;
+    margin:5px;
+    border-radius: 4px;
+    font-size: 14pt;
     text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    color:#666565;
 }
 
 .homepageNavbarHomeRedirecter:hover,
 .homepageNavbarStoreRedirecter:hover{
-   background-color: lightblue;
-   color: ffffff;
+    border: 1px #C6C6C6 solid;
+    box-shadow: 1px 1px 1px #EAEAEA;
+    color: #4C8FFB;
+    background: #F7F7F7
 }
 .homepageNavbarSearchWrapper {
     height: 50%;
     display: flex;
+    border-radius: 2px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -56,7 +63,9 @@
 .homepageNavbarSearchTextbox {
     height: 100%;
     width: 300px!important;
-    border:1px solid blue;
+    border-radius: 4px;
+    font-size: 14pt;
+    border:1px solid black;
     padding:0px 0px 0px 0px;
     display: inline-flex;
 }
@@ -65,9 +74,10 @@
     width: 60px;
     display: inline-flex;
     border: none;
+    border-radius: 4px;
     background-color: ffffff;
     position: relative;
-    border:1px solid red;
+    border:1px solid black;
     right:60px;
     padding: 0px 0px 0px 0px;
 }
@@ -78,7 +88,7 @@ flex-direction: row;
 width: 500px;
 height: 100%;
 align-items: center;
-border :1px solid pink;
+border :1px solid white;
 }
 .homepageNavbarLoginFormButtonWrapper {
     display: flex;
@@ -90,6 +100,7 @@ border :1px solid pink;
     height: 100%;
     width: 100%;
     margin: 0px;
+    border-radius: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -98,18 +109,33 @@ border :1px solid pink;
 .homepageNavbarLoginFormPasswordTextbox {
     height: 40%;
     width: 160px;
+    margin: 5px;
+    border-radius: 4px;
     display: inline-flex;
 }
 .homepageNavbarLoginFormLoginButton,
 .homepageNavbarLoginFormRegisterButton{
-    height: 50%;
+    height: 500%;
     width: 100%;
+    margin: 5px;
+    border-radius: 4px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: lightblue;
-    color:ffffff;
+    color: white;
+    background: #4C8FFB;
+    font-weight: bold;
 }
+
+.homepageNavbarLoginFormLoginButton:hover,
+.homepageNavbarLoginFormRegisterButton:hover{
+    border: 1px #C6C6C6 solid;
+    box-shadow: 1px 1px 1px #EAEAEA;
+    color: #4C8FFB;
+    background: #F7F7F7
+}
+
+
 #homepageSliderWrapper .item img {
     display: block;
     width: 100%;
