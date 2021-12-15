@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     width: 1600px;
-    border:1px solid orange;
+    border:1px solid white;
     margin: 0 auto;
     align-items: center;
 
@@ -11,8 +11,8 @@
 .adminAccountProfileWrapper {
     display: flex;
     width: 1200px;
-    height: 300px;
-    border:1px solid purple;
+    border:2px solid white;
+    border-radius: 4px;
 
 }
 
@@ -42,6 +42,7 @@
 .adminAccountProfileSaveChangesButton {
     width: 50%;
     height: 30px;
+ 
 }
 .adminAccountProfileWrapperLeft input {
     margin-bottom: 30px;
@@ -54,4 +55,14 @@
 .adminAccountProfileWrapperInnerWrapperSelectBox {
     height: 50%;
     width: 100px;
+    
+}
+
+.adminAccountProfileBirthTextbox{
+    height: 50%;
+    width: 50%;
+    color: white;
+    background: #4C8FFB;
+    margin-left: 10px;
+    border-radius: 4px;
 }
