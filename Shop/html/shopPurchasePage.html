@@ -13,34 +13,45 @@
 
     <link rel="stylesheet" href="/Shop/css/shopPurchasePage.css">
     <script src="/Shop/js/purchasePage.js"></script>
+    <link rel="stylesheet" href="/Common/css/navbar.css" />
+    <link rel="stylesheet" href="/Common/css/footer.css" />
     
 </head>
 <body>
-    <div class="header">
-        <a href="#default" class="logo">CompanyLogo</a>
-
-        <div class="topnav">
-
-            <a class="active" href="#home">Home</a>
-            <a href="#store">Store</a>
-            <a href="#profile"><i class="material-icons">person</i></a>
-            <a href="#cart"><i class="material-icons">shopping_cart</i></a>
-            <a href="#favs"><i class="material-icons">favorite</i></a>
-            <a href="#support"><i class="material-icons">support_agent</i></a>
-            <a href="#logout"><i class="material-icons"> logout </i></a>
-            <div class="search-container">
-              <form action="/action_page.php">
-                <input type="text" placeholder="Search.." name="search">
-                <button type="submit"><i class="material-icons">search</i></button>
-              </form>
-            </div>
-
-          </div>
-
+  <div class="maxWidthWrapper">
+    <div class="NavbarWrapper">
+      <img class="NavbarLogoImg" />
+      <div class="NavbarRedirecterWrapper">
+        <a class="NavbarHomeRedirecter" href="homepage.html"> Home </a>
+        <a class="NavbarStoreRedirecter" href="store.html"> Store </a>
+      </div>
+      <div class="NavbarSearchWrapper">
+        <input class="NavbarSearchTextbox" type="text" />
+        <input class="NavbarSearchButton" type="button" />
+      </div>
+      <div class="NavbarRedirectLinkWrapper">
       
+        <a class="NavbarRedirectLinkSingleRedirect">
+          <img class="NavbarRedirectLinkSingleRedirectIcon" src="">
+        </a>
+        <a class="NavbarRedirectLinkSingleRedirect">
+          <img class="NavbarRedirectLinkSingleRedirectIcon" src="">
+        </a>
+        <a class="NavbarRedirectLinkSingleRedirect">
+          <img  class="NavbarRedirectLinkSingleRedirectIcon" src="">
+        </a>
+        <a class="NavbarRedirectLinkSingleRedirect">
+          <img class="NavbarRedirectLinkSingleRedirectIcon" src="">
+        </a>
+        <a class="NavbarRedirectLinkSingleRedirect">
+          <img class="NavbarRedirectLinkSingleRedirectIcon" src="">
+        </a>
+  
+      </div>
     </div>
+  </div>
 
-<div class="row">
+<div class="shopPurchasePageWrapper">
           <div class="column-side"> 
               <p class="content"> Saved cards </p> 
               <button class="button" type="button" >cart1</button> <br></br>
@@ -78,9 +89,7 @@
 
 </div>
 
-<footer>
-  <p>footer</p>
-</footer>
+<footer></footer> 
     
 </body>
 

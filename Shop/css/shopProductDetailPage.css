@@ -9,12 +9,14 @@ body{
 }.container{
     display: flex;
     flex-direction: row;
+    width: 1600px;
+    margin: auto;
 }
 /******************Product Page ************************/
 .productLeft{
   display: flex;
   flex-direction: column;
-  width: 587px;
+  width: 800px;
   align-items: center;
 
 
@@ -22,7 +24,7 @@ body{
 .productRight{
     display: flex;
     flex-direction: column;
-    width: 587px;
+    width: 800px;
   
   
 }
@@ -70,11 +72,6 @@ body{
     align-items: flex-start;
     padding-right: 50px; 
     padding-left: 80px;
-}
-footer{
-    height: 200px;
-    width: 1173px;
-    background-color: rgb(148, 151, 140);
 }
 
 /**********************  ORDER  ***************************/

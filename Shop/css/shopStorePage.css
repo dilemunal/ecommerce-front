@@ -18,7 +18,7 @@ body{
     
 }
 .categories{
-    width: 200px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     height: 400px;
@@ -84,7 +84,7 @@ body{
 }
 
 .products{
-    width: 965px;
+    width: 1200px;
     display: flex;
     flex-direction: row;
     background-color: rgb(226, 225, 225);
@@ -94,7 +94,7 @@ body{
 }
 .product{
     margin: 40px;
-    width: 220px;
+    width: 200px;
     height: 200px;
     background-color: rgb(175, 175, 175);
     display: flex;
@@ -103,7 +103,7 @@ body{
     border-radius: 12px;
 }
 .imgOfProduct{
-    width: 220px;
+    width: 200px;
     height: 160px;
     border-radius: 12px;
 }
@@ -263,4 +263,11 @@ footer{
   .topnav input[type=text] {
     border: 1px solid #ccc;  
   }
+}
+
+.shopStorePageWrapper {
+    display: flex;
+    flex-direction: row;
+    width: 1600px;
+    margin: auto;
 }
