@@ -9,6 +9,8 @@ body{
 .container{
     display: flex;
     flex-direction: row;
+    width: 1600px;
+    margin: auto;
 }
 .categoryItems{
     display: flex;
@@ -18,7 +20,7 @@ body{
     
 }
 .categories{
-    width: 200px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     height: 400px;
@@ -130,7 +132,7 @@ footer{
 
 
 .wallet{
-    width: 915px;
+    width: 1300px;
     display: flex;
     flex-direction: column;
     background-color: rgb(226, 225, 225);

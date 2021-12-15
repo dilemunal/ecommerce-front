@@ -9,12 +9,17 @@ body{
 .container{
     display: flex;
     flex-direction: row;
+    margin: auto;
+    width: 1600px;
 }
 .categoryItems{
     display: flex;
     background-color: rgb(226, 225, 225);
     flex-direction: column;
     border: solid 2px rgb(131, 124, 124);
+    width: 300px;
+
+    justify-content: center;
     
 }
 .filters{
@@ -59,8 +64,7 @@ body{
 }
 
 .products{
-    width: 1024px;
-    height: 650px;
+    width: 1300px; 
     display: flex;
     flex-direction: row;
     background-color: rgb(226, 225, 225);
