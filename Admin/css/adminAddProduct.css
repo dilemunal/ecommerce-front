@@ -205,7 +205,7 @@ input { display: table-cell; }
     display: flex;
     flex-direction: row;
     width: 1600px;
-    border:1px solid orange;
+    
     margin: 0 auto;
     align-items: center;
 

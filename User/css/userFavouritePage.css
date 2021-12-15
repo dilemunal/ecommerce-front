@@ -14,11 +14,9 @@ body{
 }
 .categoryItems{
     display: flex;
-    background-color: rgb(226, 225, 225);
-    flex-direction: column;
-    border: solid 2px rgb(131, 124, 124);
+    background-color: #FFFFFF;
+    flex-direction: column;  
     width: 300px;
-
     justify-content: center;
     
 }
@@ -67,10 +65,8 @@ body{
     width: 1300px; 
     display: flex;
     flex-direction: row;
-    background-color: rgb(226, 225, 225);
+    background-color: #ffffff;
     flex-wrap: wrap;
-    border: solid 2px rgb(131, 124, 124);
-    
 }
 .product{
     margin: 40px;

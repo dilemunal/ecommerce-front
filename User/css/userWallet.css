@@ -135,10 +135,9 @@ footer{
     width: 1300px;
     display: flex;
     flex-direction: column;
-    background-color: rgb(226, 225, 225);
+    background-color: #ffffff;
     padding-top: 30px;
     padding-left: 50px;
-    border: solid 2px rgb(131, 124, 124);
   
 }
 .walletTitle{

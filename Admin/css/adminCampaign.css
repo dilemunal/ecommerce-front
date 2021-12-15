@@ -195,10 +195,10 @@ footer{
     width: 1200px;
     display: flex;
     flex-direction: column;
-    background-color: rgb(226, 225, 225);
+    background-color: #ffffff;
     padding-top: 30px;
     padding-left: 50px;
-    border: solid 2px rgb(131, 124, 124);
+   
   
 }
 .searchProduct{
@@ -355,7 +355,7 @@ footer{
     display: flex;
     flex-direction: row;
     width: 1600px;
-    border:1px solid orange;
+
     margin: 0 auto;
     align-items: center;
 }
