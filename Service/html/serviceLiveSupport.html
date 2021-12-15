@@ -3,17 +3,18 @@
     body {
         font-family: Arial, Helvetica, sans-serif;
         height: 100%;
-        width: 80%;
         margin: 0;
         padding: 0;
         font-family: sans-serif;
         background: white;
     }
 
-    body {
+    .chatboxWrapper {
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 1600px;
+        margin: auto;
         flex-direction: column;
     }
 
@@ -27,8 +28,8 @@
     }
 
     .chatbox {
-        width: 700px;
-        height: 600px;
+        margin-top: 100px;
+        width: 900px;
         max-height: 600px;
         display: flex;
         flex-direction: column;
@@ -174,13 +175,48 @@
         text-align: right;
     }
 </style>
+<head>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
+<link rel="stylesheet" href="/Common/css/navbar.css" />
+<link rel="stylesheet" href="/Common/css/footer.css" />
+</head>
 <body>
+    <div class="maxWidthWrapper">
+        <div class="NavbarWrapper">
+          <img class="NavbarLogoImg" />
+          <div class="NavbarRedirecterWrapper">
+            <a class="NavbarHomeRedirecter" href="homepage.html"> Home </a>
+            <a class="NavbarStoreRedirecter" href="store.html"> Store </a>
+          </div>
+          <div class="NavbarSearchWrapper">
+            <input class="NavbarSearchTextbox" type="text" />
+            <input class="NavbarSearchButton" type="button" />
+          </div>
+          <div class="NavbarRedirectLinkWrapper">
+          
+            <a class="NavbarRedirectLinkSingleRedirect">
+              <img class="NavbarRedirectLinkSingleRedirectIcon" src="">
+            </a>
+            <a class="NavbarRedirectLinkSingleRedirect">
+              <img class="NavbarRedirectLinkSingleRedirectIcon" src="">
+            </a>
+            <a class="NavbarRedirectLinkSingleRedirect">
+              <img  class="NavbarRedirectLinkSingleRedirectIcon" src="">
+            </a>
+            <a class="NavbarRedirectLinkSingleRedirect">
+              <img class="NavbarRedirectLinkSingleRedirectIcon" src="">
+            </a>
+            <a class="NavbarRedirectLinkSingleRedirect">
+              <img class="NavbarRedirectLinkSingleRedirectIcon" src="">
+            </a>
+      
+          </div>
+        </div>
+      </div>
 
-    <div class="body">
+    <div class="chatboxWrapper">
         <section class="chatbox">
             <section class="chat-window">
                 <article class="msg-container msg-remote" id="msg-0">
